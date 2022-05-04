@@ -1,0 +1,43 @@
+.container{
+    height: 48vw;
+    width: 100%;
+    background-image:url("LandingFondo.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: pink;
+    border-radius: 0.7rem;
+    padding: 1rem;
+
+}
+.info p{
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+}
+.info h2{
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+}
+.info button{
+    font-size: large;
+    font-weight: 800;
+    color: black;
+    background-color: white;
+    width: 70px;
+    min-width: 40%;
+    border: 1px solid black;
+    border-radius: 0.7rem;
+    margin:0 auto;
+    font-family: 'Dancing Script', cursive;
+}
+.info button:hover{
+    color:pink;
+}
